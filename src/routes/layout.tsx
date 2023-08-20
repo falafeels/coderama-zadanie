@@ -14,9 +14,6 @@ const theme = createTheme({
       secondary: {
         main: colors.teal
       },
-      background: {
-        default: colors.white
-      }
     },
     components: {
         MuiGrid2: {

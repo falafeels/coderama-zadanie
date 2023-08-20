@@ -3,10 +3,10 @@ import { css } from "@emotion/react"
 export const SLIDE_UP = css`
     @keyframes slideUp {
         0% {
-        flex: 1
+            flex: 1
         }
         100% {
-        flex: 0
+            flex: 0
         }
     }
 `
@@ -14,10 +14,10 @@ export const SLIDE_UP = css`
 export const SLIDE_DOWN = css`
     @keyframes slideDown {
         0% {
-        flex: 0
+            flex: 0
         }
         100% {
-        flex: 1
+            flex: 1
         }
     }
 `
