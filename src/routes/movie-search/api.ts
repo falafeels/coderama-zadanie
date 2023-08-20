@@ -26,7 +26,7 @@ const useMoviesList = (movieName: string, page: number = 1, enabled: boolean) =>
         queryKey: ['moviesList', movieName, page],
         queryFn: async () => {
             try {
-                const resp = await axios.get<SearchData>(`https://omdbapi.com/?apikey=9a43bd95&s=${movieName}&page=${page}`)
+                const resp = await axios.get<SearchData>(`https://omdbapi.com/?apikey=${import.meta.env.VITE_OMDB_API_KEY}&s=${movieName}&page=${page}`)
                 return resp.data
             } catch (error) {
                 throw error
