@@ -3,7 +3,7 @@ import Tooltip from '@mui/material/Tooltip';
 import { css } from '@emotion/react';
 import StarBorderIcon from '@mui/icons-material/StarBorder';
 import StarIcon from '@mui/icons-material/Star';
-import useFavourite from "./useFavourite"
+import useFavourite from "./use-favourite"
 import { ANIMATION_MAP, MovieInfo } from '../../types';
 import { circleIcon, circleIconHover } from '../../styles';
 import { colors } from '../../consts';
